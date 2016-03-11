@@ -1,0 +1,15 @@
+name       : solus-upgrade
+version    : 1
+release    : 1
+source     :
+    - https://github.com/solus-project/solus-upgrade/releases/download/v1/solus-upgrade-1.tar.xz : 3eefa8eb33b64d41ceeffc0dab9d46237261407e15729b72995333867024877c
+license    : GPL-2.0
+summary    : Solus Upgrade Assistant
+description: |
+    Solus Upgrade Assistant
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install
